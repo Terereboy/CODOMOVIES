@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./inicio.css">
+  <link rel="stylesheet" href="./script.js">
+  <title>Codo Movies</title>
+  <link rel="icon" href="./imagenes inicio/entrada-de-cine.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/574da1cd36.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar fixed-top d-flex justify-content-end">
+      <button type="button" data-bs-toggle="modal"
+          data-bs-target="#modal" class="btn btn-dark mx-2">
+          Inicia sesión
+      </button>
+      <button onclick="redirectToForm()" type="button" data-bs-toggle="modal"
+        data-bs-target="#modal" class="btn btn-dark">
+        Suscribite ahora!
+    </button>
+    </nav>
+  </header>
+  <main>
+    <div id="hero">
+       Este div contiene el video de fondo 
+       <div class="video-container">
+        <video loop muted autoplay preload="auto">
+          <source
+            src="imagenes inicio/y2mate.com - El Señor de los Anillos Los Anillos de Poder Tráiler Oficial_1080p_Trim.mp4"
+            type="video/mp4">
+        </video>
+      </div>
+      </div>
+      <!-- este div contiene el titulo y la linea con color -->
+      <div class="caption">
+        <form class="login-box ">
+          <h1 class=" title-hero text-center fw-bold " data-aos="fade-up">Codo movies</h1>
+          <div class="line-glow ">
+            <img src="./imagenes inicio/hero_promo_purpline.webp" alt="linea-inicio">
+          </div>
+
+         
+          <!-- boton suscribirse -->
+          <a href="> <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+              data-bs-target="#miModal">SUSCRIBIRSE
+            </button></a>
+        </form>
+      </div>
+    </div>
+
+    <main class="fondx">
+      <!-- Comienza la Seccion Planes -->
+      <section class="d-flex  justify-content-center mt-5">
+        <div class="boxPricing d-lg-flex">
+          <div class="plan">
+
+            <h4 class="plan-title text-center">
+              MOBILE
+            </h4>
+            <div class="plan-cost text-center"><span class="plan-price">$3890</span><span class="plan-type">/mes</span>
+            </div>
+
+            <ul class="plan-features ">
+              <li>Descarga y disfruta donde sea.
+              </li>
+              <li>Ve en 1 dispositivo a la vez.
+              </li>
+              <li>Contenido en definición estándar.
+              </li>
+              <li>Configura hasta 2 perfiles para toda la familia.
+              </li>
+              <li>Oferta limitada hasta fines del año 2023.
+              </li>
+
+            </ul>
+
+            <div class="plan-select "><a href="">Quiero mi plan</a></div>
+          </div>
+          <div class="plan">
+            <h4 class="plan-title text-center">
+              Básico
+            </h4>
+            <div class="plan-cost text-center"><span class="plan-price">$6000</span><span class="plan-type">/mes</span>
+            </div>
+
+            <ul class="plan-features">
+              <li>Disfruta en todas tus pantallas.
+              </li>
+              <li>Ve en 2 dispositivos a la vez.
+              </li>
+              <li>Contenido en alta definición.
+              </li>
+              <li>Descarga y disfruta tus títulos preferidos donde sea.
+              </li>
+              <li>Configura hasta 3 perfiles para toda la familia.
+              </li>
+
+
+            </ul>
+            <div class="plan-select"><a href="">Quiero mi plan</a></div>
+          </div>
+
+          <div class="plan">
+            <h4 class="plan-title text-center">
+              premium
+            </h4>
+            <div class="plan-cost text-center"><span class="plan-price">$10000</span><span class="plan-type">/mes</span>
+            </div>
+
+            <ul class="plan-features">
+              <li>Disfruta en todas tus pantallas.
+              </li>
+              <li>Ve en 5 dispositivos a la vez.
+              </li>
+              <li>Contenido en alta definición/4k.
+              </li>
+              <li>Descarga y disfruta tus títulos preferidos donde sea.
+              </li>
+              <li>Configura hasta 5 perfiles para toda la familia.
+              </li>
+
+            </ul>
+            <div class="plan-select"><a href="">Quiero mi plan</a></div>
+          </div>
+        </div>
+      </section>
+      <!-- Termina la Seccion Planes -->
+
+      <section class="container-fluid section-1">
+        <div class="card-2  mt-5">
+          <div class="row  d-flex justify-content-center align-items-center  mt-5">
+            <div class="col-lg-6 mt-5  text-center image-descarga">
+              <img class="image-descarga" src="./imagenes inicio/Mi proyecto.png"
+                alt="Codo Movies Mobile">
+
+            </div>
+            <div class="col-lg-6 text-white text-center">
+              <h1 class="mx-5">Descarga tus películas/series para verlos sin conexión.</h1>
+
+              <h3 class="mx-5">Guarda tus favoritos fácilmente y siempre ten algo que ver en tus perfiles .</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container-fluid section-2 ">
+        <div class="row row-apple">
+          <div class="col-lg-6 desc-3  d-flex justify-content-center align-items-center flex-column">
+            <h1 class="text-white">Disfruta en cualquier pantalla</h1>
+
+            <h3 class="text-white mx-5">Mira en televisores inteligentes, PlayStation, Xbox, Chromecast, Apple TV,
+              reproductores de Blu-ray y más
+            </h3>
+          </div>
+
+            <img src="./imagenes inicio/device-pile.png" class="tv-apple" alt="Codo Movies">
+          </div>
+        </div>
+      </section>
+    <div id="formulario" style="color: aliceblue;">
+        <h2>Formulario de Contacto</h2>
+      <form id="suscriptionForm" onsubmit="return validateForm()" onsubmit="showAlert()">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+        <label for="apellido">Apellido:</label><br>
+        <input type="text" id="apellido" name="apellido" required><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
+        <input type="submit" value="Enviar">
+      </form>
+    </div>
+
+    <p id="error" style="color: rgb(226, 202, 43);"></p>
+  </div>
+    </main>
+
+    <!-- seccion footer -->
+
+    <footer id="footer" class="footer_lean conteiner mt-5 align-items-center text-center py-2 row container-fluid">
+      <aside class="publicidad_footer order-2 order-md-1 col-xl-4 col-12 mx-0 my-2">
+        <div class="d-flex ">
+          <img src="./imagenes inicio/entrada-de-cine.png" class="img-logo" alt="codomovies"/>
+          <a href="./imagenes inicio/entrada-de-cine.png" target="_blank">
+            <h2 class="text-white text-codo mx-2">Codo Movies</h2>
+          </a>
+        </div>
+      </aside>
+      <div class="footer_derechos order-1 order-md-2 col-xl-4 col-12 mx-0 py-4">
+        <p>Todos los derechos reservados</p>
+        <p>Codo Movies ©</p>
+      </div>
+      <div class="footer_redes order-2 order-md-3 col-xl-4 col-12 mx-md-0 my-4">
+        <a class="mx-auto" href=""> <i
+            class="fa-brands fa-instagram icon-footer icon d-flex align-items-center justify-content-center p-4"></i></a>
+        <a class="mx-auto" href=""><i
+            class="fa-brands fa-facebook icon-footer icon d-flex align-items-center justify-content-center p-4"></i></a>
+        <a class="mx-auto" href=""><i
+            class="fa-brands fa-whatsapp icon d-flex align-items-center justify-content-center p-4"></i></a>
+        <a class="mx-auto" href=""><i
+            class="fa-brands fa-twitter icon d-flex align-items-center p-4 justify-content-center"></i></a>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
